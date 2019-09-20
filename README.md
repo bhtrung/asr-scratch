@@ -23,7 +23,7 @@ chmod +x path.sh
 
 # Data preparation
 ## Audio data
-Use Amazon Mechanical Turk to collect audio files as a training and test set if you don't have them. For example: `fotolia/audio/train` and `fotolia/audio/test` are two folders contain the collected .wav files from the Fotolia queries. Each file has the following format: TurkerID_QueryID_Word1_Word2_..._WordN.wav. See [this project](https://git.corp.adobe.com/bui/adobe-search) for data collection.
+Use Amazon Mechanical Turk to collect audio files as a training and test set if you don't have them. For example: `data/audio/train` and `data/audio/test` are two folders contain the collected .wav files from the Fotolia queries. Each file has the following format: TurkerID_QueryID_Word1_Word2_..._WordN.wav. 
 ## Prepare acoustic data
 
 ### Create spk2gender files
